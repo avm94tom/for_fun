@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Signed in</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  </head>
+  <body>
+
+    <style type="css/text">
+    .navbar{
+      background-color: black;
+    }
+    </style>
+
+
+    <nav class="navbar navbar-inverse" >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="main.html">Welcome!</a>
+        </div>
+        <div collapse navbar-collapse>
+        <ul class="nav navbar-nav">
+          <li></li>
+          <li><a href="signinpage.html">Sign in</a></li>
+        </ul>
+      </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+<div class="container">
+    <div class="jumbotron">
+      <h1> Log In </h1>
+      <br/>
+      <h3>Enter your email and password below to log in to Coffee Lover</h3>
+    </div>
+</div>
+
+    <div class="container">
+      <form>
+        <div class="form-group" >
+          <!--info input fields-->
+          <label id="loginfo">Email:</label>
+          <input type="email" class="form-control" id="loginfo" aria-describedby="email" placeholder="Email" required>
+          <label id="loginfo">Password:</label>
+          <input type="password" class="form-control" id="loginfo" aria-describedby="password" placeholder="Password" required>
+          <br>
+        <!--checkbox-->
+          <label id="keeplogged" class="form-group">Keep me Logged In
+          <input type="checkbox" class="form-group" id="keeplogged">
+          </label>
+          <br>
+          <!--submit button-->
+          <label id="subbut" for="subbutton" class="form-group"> </label>
+          <button type="button" class="form-group" ><a  href="thanks.html"> Submit </a> </button>
+        </div>
+      </form>
+    </div>
+
+
+
+  </body>
+</html>
